@@ -63,6 +63,7 @@ function Route() {
             <TextBox label={"Destination Latitude"} change={setEndLat} />
             <TextBox label={"Destination Longitude"} change={setEndLong}/>
             <AwesomeButton onPress={requestRoute}>Submit</AwesomeButton>
+            <p> {startRoute} </p>
         </div>
     );
 }
